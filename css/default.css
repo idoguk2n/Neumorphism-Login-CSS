@@ -1,0 +1,16 @@
+body {font-family: 'Poppins', sans-serif;background: #efeeee;}
+.container {position: absolute;transform: translate(-50%, -50%);top: 50%;left: 50%;}
+.login-form {background: #efeeee;height: 360px;width: 240px;border-radius: 20px;box-shadow: 10px 10px 16px -2px #ccc, -10px -10px 16px -2px #fff;text-align: center;padding: 2em;}
+.login-form p {color: #777;margin-bottom: 2em;font-size: 24px;font-weight: 300;}
+.login-form input {width: 170px;border: none;border-radius: 5000px;padding: 1em;background: #efeeee;box-shadow: inset 4px 4px 6px #ccc, inset -4px -4px 6px #fff;margin-bottom: 2em;color: #888;font-family: 'Poppins', sans-serif;}
+.login-form input[type="button"] {width: 100px;box-shadow: 4px 4px 6px #ccc, -4px -4px 6px #fff;margin-top: 1em;font-family: 'Poppins', sans-serif;font-weight: 400;}
+.login-form input:hover {cursor: pointer;}
+.login-form input:active {box-shadow: inset 4px 4px 6px #ccc, inset -4px -4px 6px #fff;}
+.login-form input:focus {outline: none;}
+::placeholder {font-family: 'Poppins', sans-serif;font-weight: 500;color: #aaa;}
+.login-form .sifremi-unuttum {text-decoration: none;color: #777;font-size: 12px;transition: all 0.2s ease-in-out; display: block;}
+.login-form .sifremi-unuttum::after {font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f578"; margin-left: 7px;transition: all 0.2s ease-in-out;}
+.login-form .sifremi-unuttum:hover::after {margin-left: 15px;transition: all 0.2s ease-in-out;}
+.login-form .sifremi-unuttum:hover {color: #aaa;}
+.login-form .sifremi-unuttum:active {color: #ccc;}
+.login-form .sifremi-unuttum:focus {outline: none;}
